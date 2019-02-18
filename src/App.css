@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.calendar-wrapper {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 2px 2px #ccc;
+  height: calc(100vh - 5px);
+  background: #448aff;
+}
+
+.photo-wrapper-item {
+  float: left;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0 0 2px 2px #ccc;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+.photo-wrapper-item img{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.photo-wrapper {
+  flex: 1;
+  margin: 10px;
+}
+
+.Cal__Header__dateWrapper.Cal__Header__day {
+  font-size: 18px;
+}
+
+.button-change-calendar {
+  background: #2663ca;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  cursor: pointer;
+}

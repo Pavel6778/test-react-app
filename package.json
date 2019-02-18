@@ -1,0 +1,24 @@
+{
+  "name": "my-test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.22.1",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.4.0",
+    "react-infinite-calendar": "^2.3.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-saga": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
